@@ -1,0 +1,2 @@
+docker build -t nomedaimagem .  ('zipando' meus arquivos e criando a imagem.)
+docker run -d -p 8501:8501 --name my-first-container minha-primeira-imagem (criando meu container com aquela imagem que fiz)
